@@ -73,7 +73,7 @@ protected:
                 } else {
                     // the cardinatlity of the first and second set of workers must be the same
                     if (workers1.size() != workers2.size()) {
-                        error("A2A, wrap_around, the workers of the second set are not multi-output nodes so the cardinatlity of the first and second set must be the same\n");
+                        error("A2A, wrap_around, the workers of the first set are not multi-output nodes so the cardinatlity of the first and second set must be the same\n");
                         return -1;
                     }
                     
